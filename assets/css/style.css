@@ -1,22 +1,27 @@
 .bio {
-    background-color: lightskyblue;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-hr {
-
+img {
+    padding-right: 15px;
+    height: 150px;
+    width: 150px;
 }
 
 header {
     margin-top: 40px;
-    background-color: lightgray;
+    background-color: crimson;
 }
 
 footer {
-    background-color: lightgray;
+    background-color:  crimson;
 }
 
-header h1 {
+a:link {
+    color: black;
+}
 
+a:visited {
+    color: white;
 }
