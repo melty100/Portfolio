@@ -1,30 +1,31 @@
 .bio {
-    padding-top: 25px;
     padding-bottom: 25px;
 }
 
-.banner {
-}
-
-.banner h3 {
-    text-align: center;
-}
 .SDSU {
     padding-right: 15px;
-    height: 150px;
-    width: 150px;
 }
 
 
 header {
     background-color: crimson;
-    border-color: gold;
-    border-width: 20px;
+    margin-bottom: 40px;
+}
+
+section {
+    margin-top:50px;
 }
 
 footer {
     background-color: crimson;
 
+}
+
+.responsive {
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
 }
 
 a:link {
