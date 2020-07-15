@@ -46,7 +46,7 @@ footer, header {
 
 /* Style and spacing related to contact.html */
 .contact-plate {
-    margin-top: 150px;
+    margin-top: 125px;
 }
 
 .contact-plate h2 {
@@ -56,7 +56,7 @@ footer, header {
 
 /* Style and spacing related to portfolio.html */
 .portfolio-plate {
-    margin-top: 150px;
+    margin-top: 125px;
     text-align: center;
 }
 
@@ -64,6 +64,7 @@ footer, header {
     margin-top:15px;
 }
 
+/* scales images with screen size */
 .responsive {
     width: 100%;
     max-width: 150px;
