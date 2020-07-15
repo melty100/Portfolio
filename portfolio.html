@@ -2,91 +2,99 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-  <title>My Portfolio</title>
+    <title>My Portfolio</title>
 </head>
 
 <body>
+    <div class="container-fluid">
 
-  <div class="container-fluid">
-    <header class="row justify-content-center fixed-top">
-      <div class="col-auto">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-        </ul>
-      </div>
-    </header>
+        <!--Fixed header with nav to other pages-->
+        <header class="row justify-content-center fixed-top">
+            <div class="col-auto">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
 
-    <section class="row justify-content-center">
-      <div class="col-7 bio">
-        <h3>San Diego State University</h3>
-        <h5>B.S. in Computer Science, <i>earned May 2016</i></h5>
-        <hr>
-        <image class="SDSU responsive float-left"
-          src="assets/images/SDSU.jpg"></image>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eum omnis iure velit. Ipsum architecto atque
-          minima placeat libero ex asperiores dolores nobis, beatae impedit illo totam rem porro quia ad minus numquam
-          quidem unde, accusantium eaque? Inventore, neque consequatur.</p>
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eum omnis iure velit. Ipsum architecto atque
-            minima placeat libero ex asperiores dolores nobis, beatae impedit illo totam rem porro quia ad minus numquam
-            quidem unde, accusantium eaque? Inventore, neque consequatur.</p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eum omnis iure velit. Ipsum architecto atque
-              minima placeat libero ex asperiores dolores nobis, beatae impedit illo totam rem porro quia ad minus numquam
-              quidem unde, accusantium eaque? Inventore, neque consequatur.</p>
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eum omnis iure velit. Ipsum architecto atque
-                minima placeat libero ex asperiores dolores nobis, beatae impedit illo totam rem porro quia ad minus numquam
-                quidem unde, accusantium eaque? Inventore, neque consequatur.</p>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eum omnis iure velit. Ipsum architecto atque
-                  minima placeat libero ex asperiores dolores nobis, beatae impedit illo totam rem porro quia ad minus numquam
-                  quidem unde, accusantium eaque? Inventore, neque consequatur.</p>
-      </div>
-    </section>
+        <!--Section with project images and links-->
+        <section class="row portfolio-plate justify-content-center">
+            <div class="col-5">
+                <h2>Portfolio</h2>
+                <hr>
+                <section class="row">
+                    <div class="col">
+                        <image class="responsive" src="assets/images/SDSU.jpg"></image>
+                        <h3>Project 1</h3>
+                        <image class="portfolio-image responsive" src="assets/images/SDSU.jpg"></image>
+                        <h3>Project 3</h3>
+                    </div>
+                    <div class="col">
+                        <image class="responsive" src="assets/images/SDSU.jpg"></image>
+                        <h3>Project 2</h3>
+                        <image class="portfolio-image responsive" src="assets/images/SDSU.jpg"></image>
+                        <h3>Project 5</h3>
+                    </div>
+                    <div class="col">
+                        <image class="responsive" src="assets/images/SDSU.jpg"></image>
+                        <h3>Project 3</h3>
+                        <image class="portfolio-image responsive" src="assets/images/SDSU.jpg"></image>
+                        <h3>Project 6</h3>
+                    </div>
+                </section>
+            </div>
+        </section>
 
-    <footer class="row justify-content-center fixed-bottom">
-      <div class="col-auto">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" target="_blank" href="https://www.linkedin.com/in/connor-m-7b233735/">LinkedIn</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" target="_blank" href="https://www.facebook.com/connor.melton.71">Facebook</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" target="_blank" href="https://github.com/melty100?tab=repositories">Github</a>
-          </li>
-        </ul>
-      </div>
-    </footer>
-  </div>
+        <!--Footer with nav to social media-->
+        <footer class="row justify-content-center fixed-bottom">
+            <div class="col-auto">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" target="_blank"
+                            href="https://www.linkedin.com/in/connor-m-7b233735/">LinkedIn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank"
+                            href="https://www.facebook.com/connor.melton.71">Facebook</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank"
+                            href="https://github.com/melty100?tab=repositories">Github</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
 
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
