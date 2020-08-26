@@ -1,4 +1,5 @@
 
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -57,7 +58,6 @@ footer, header {
 /* Style and spacing related to portfolio.html */
 .portfolio-plate {
     margin-top: 125px;
-    text-align: center;
 }
 
 .portfolio-image {
@@ -66,10 +66,8 @@ footer, header {
 
 /* scales images with screen size */
 .responsive {
-    width: 100%;
-    max-width: 150px;
-    max-height: 150px;
-    height: auto;
+    width: 200px;
+    height: 200px;
 }
 
 a:link {
@@ -77,5 +75,5 @@ a:link {
 }
 
 a:visited {
-    color: white;
+    color: black;
 }
